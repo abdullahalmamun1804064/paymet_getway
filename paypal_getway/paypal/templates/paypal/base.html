@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'blog/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'blog/css/fontawsam.css' %}">
+    <link rel="stylesheet" href="{% static 'blog/css/stylefb.css'  %}">
+</head>
+<body class='bg'>
+ <div class="container">
+    <div class="alert bg-primary text-center text-white "><b>Donation</b></div>
+    
+    {% block contain %}
+
+   {% endblock contain %}
+</div>
+    <script src="{% static 'blog/js/fontawesome.js' %}">   </script>
+    <script src="{% static 'blog/js/bootstrap.min.js' %}">   </script>
+    <script src="{% static 'blog/js/proper.js' %}">   </script> 
+    <script src="{% static 'blog/js/jquary.js' %}">   </script>
+    <script src="{% static 'blog/js/myjs.js' %}">   </script>
+
+</body>
+</html>
+
